@@ -5,6 +5,8 @@
 
 - Before starting with the project ensure that you have a good knowledge of hooks and axios
 
+- So the main thing in this project is how to play songs once that is achieved you can add styling according to your taste and upto any extent also the spotify-web-api-node is       going to do our work more easier so also research about it and you are good to go
+
 - The packages which you need to install for the proper functioning of code are:
   1. Install nodejs before starting anything
   2. npm i express
