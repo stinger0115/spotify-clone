@@ -1,0 +1,16 @@
+
+.artist_tile{
+    display: flex;
+    flex-direction: column;
+    transition: all 0.5s ease-in-out;
+    overflow: scroll;
+}
+.artist_tile:hover{
+    cursor: pointer;
+    transform: scale(1.04);
+}
+.artist_img{
+    max-width: 15vw;
+    max-height: 20vh;
+    border-radius: 50%;
+}

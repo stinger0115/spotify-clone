@@ -1,0 +1,130 @@
+.home{
+    max-height: 90vh;
+    overflow: scroll;
+}
+.top_artists{
+    display: flex;
+    flex-direction: column;
+}
+.top_artists > h1{
+    overflow: scroll;
+}
+.artists{
+    display: flex;
+    flex-direction: row;
+    overflow: scroll;
+    height: 28vh;
+    /* background-color: wheat; */
+}
+
+.artist_tracks_list{
+    display: flex;
+    flex-direction: column;
+}
+
+.artist_songs_container{
+    display: flex;
+    overflow-y: scroll;    
+}
+
+.actual_track{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-overflow:ellipsis;
+}
+.actual_track_container:hover{
+    /* background-color: #0469bb; */
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+.actual_track > h5{
+    max-width: 20vw;
+    max-height: 8vh;    
+    overflow: scroll;
+}
+
+.actual_track > img{
+    max-height: 25vh;
+    max-width: 20vw;
+    /* border-radius: 50%;  */
+}
+
+
+.top_tracks{
+    display: flex;
+    flex-direction: column;
+}
+
+.top_tracks_list{
+    display: flex;
+    overflow: scroll;
+}
+
+
+.top_tracks_tile{
+    display: flex;
+    flex-direction: column;
+}
+
+.top_tracks_tile > img{
+    max-height: 25vh;
+    max-width: 20vw;
+}
+
+.top_tracks_tile > h5{
+    max-width: 20vw;
+    height: 8vh;    
+    overflow: scroll;
+}
+
+
+.top_track_container:hover{
+    background-color: white;
+    cursor: pointer;
+    color: black;
+}
+
+
+
+.new_releases{
+    display: flex;
+    flex-direction: column;    
+}
+
+.releases_playlist{
+    display: flex;
+    overflow: scroll;
+}
+
+
+.release_playlist_tracks{
+    display: flex;
+    flex-direction: column;
+}
+
+.playlist_details{
+    display: flex;
+    flex-direction: column;
+}
+
+.playlist_tile{
+    display: flex;
+    align-items: center;
+}
+
+.playlist_tile > img{
+    max-height: 10vh;
+    max-width: 10vw;
+}
+.playlist_tile > h5{
+    max-width: 50vw;
+    overflow: scroll;
+}
+
+.playlist_tile_container :hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}

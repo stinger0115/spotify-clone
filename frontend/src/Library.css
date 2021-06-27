@@ -1,0 +1,16 @@
+.library{
+    height: 50vh;
+    overflow:scroll;
+}
+
+
+.playlist_songs{
+    height: 41vh;
+    overflow: scroll;
+    color: white;    
+} 
+
+.playlist_songs > div{
+    max-height: 35vh;
+    overflow: scroll;
+}

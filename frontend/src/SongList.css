@@ -1,0 +1,19 @@
+.songslist{
+    display: flex;    
+}
+.songslist:hover{
+    cursor: pointer;
+    /* background-color: rgb(104, 50, 165); */
+    background-color: white;
+    color: black;
+}
+ 
+.songslist > img{
+    height: 10vh;
+    max-width: 10vw;
+}
+
+.song_details{
+    max-width: 50vw;
+    overflow: scroll;
+}

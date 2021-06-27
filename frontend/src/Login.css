@@ -1,0 +1,24 @@
+.login{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    height: 100vh;
+}
+
+.login img{
+    /* border:1px solid green;     */
+}
+
+.login_link{
+    text-decoration: none;
+    transition: all 0.5s ease-in;
+    color: white;
+    background-color: #1db954;
+}
+
+.login_link:hover{
+    transform: scale(1.03);
+    color: white;
+}
